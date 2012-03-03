@@ -7,21 +7,13 @@
 	// Python tab settings
     "tab_size": 4,
     "translate_tabs_to_spaces": true,
+    // I think this needs to be set in defaults. I get weird behavior 
+    // when I set it here.
+    // "auto_complete": false,
 
-    // When enabled, pressing tab will insert the best matching completion.
-    // When disabled, tab will only trigger snippets or insert a tab.
-    // Shift+tab can be used to insert an explicit tab when tab_completion is
-    // enabled.
-    "tab_completion": true,
-    // Enable auto complete to be triggered automatically when typing.
-    "auto_complete": false,
-
-    // Valid values are "system", "enabled" and "disabled"
     "overlay_scroll_bars": "enabled",
-
-
 	"ignored_packages":
 	[
-		// "Vintage"
+		"Vintage"
 	]
 }

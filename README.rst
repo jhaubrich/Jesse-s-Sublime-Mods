@@ -2,13 +2,13 @@ I find myself making changes to allot of existing packages. That is all this pro
 
 Changes made:
 ~~~~~~~~~~~~~
-* Orgmode syntax added to Molokai, Eiffle and Plastic
+* Orgmode syntax added to Molokai, Eiffel, and Plastic.
 * Added ReStructured_extended, `thanks chh`_
-    - Includes Shell-Unix-Generic-Extended.tmLanguage, Twilight Extended
-    - Removed the meta.paragraph.restructuredtext definition, so that normal text will be colored just like all other standard text as defined in the currently used color theme.
-    - Added definitions for the ReST directives .. sourcecode:: bash, .. sourcecode:: console, .. sourcecode:: guess and .. sourcecode:: python
-    - Added definitions for the ReST directives .. NOTE::, .. ATTENTION:: and .. WARNING::
-    - Corrected some regex flaws.
+    * Includes Shell-Unix-Generic-Extended.tmLanguage, Twilight Extended
+    * Removed the meta.paragraph.restructuredtext definition, so that normal text will be colored just like all other standard text as defined in the currently used color theme.
+    * Added definitions for the ReST directives .. sourcecode:: bash, .. sourcecode:: console, .. sourcecode:: guess and .. sourcecode:: python
+    * Added definitions for the ReST directives .. NOTE::, .. ATTENTION:: and .. WARNING::
+    * Corrected some regex flaws.
 * Lists to ReStructured text
 * comment blocks to ReStructured text.
 
@@ -16,14 +16,17 @@ Changes made:
 Install Instructions
 ~~~~~~~~~~~~~~~~~~~~
 Copy all the files to where they go. :)
-* copy or clone into `Sublime Text 2/Packages`
+
+* copy or clone into `Sublime Text 2/Packages`. I personally like to just creat a symbolic link there `ln -s ~/src/Jesse-s-Sublime-Mods`
 * `Shell-Unix-Generic.tmLanguage` needs to be overwritten with the one here -- copy it over.
+
+.. WARNING: The settings in my_settings are sourced last and will override your own.
 
 Favorite Packages
 ~~~~~~~~~~~~~~~~~
 * Package Control
 * SublimeCodeIntel -- Autocomplete with library lookups
-* Alternative Autocomplete -- Textmate style tab completion on local variables
+* <strike>Alternative Autocomplete -- Textmate style tab completion on local variables</strike> Interferes with CodeIntel
 * SublimeREPL -- pdb!!
 * Goto Documentation -- Python help()
 * FileDiffs -- Diff against the clipboard (suprising how much I use this)
