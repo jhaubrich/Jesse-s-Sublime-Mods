@@ -16,7 +16,20 @@ Changes made:
 Install Instructions
 ~~~~~~~~~~~~~~~~~~~~
 Copy all the files to where they go. :)
+* copy or clone into `Sublime Text 2/Packages`
+* `Shell-Unix-Generic.tmLanguage` needs to be overwritten with the one here -- copy it over.
 
+Favorite Packages
+~~~~~~~~~~~~~~~~~
+* Package Control
+* SublimeCodeIntel -- Autocomplete with library lookups
+* Alternative Autocomplete -- Textmate style tab completion on local variables
+* SublimeREPL -- pdb!!
+* Goto Documentation -- Python help()
+* FileDiffs -- Diff against the clipboard (suprising how much I use this)
+* Djaneiro
+* Theme Soda
+* Abacus
 
 Todo
 ~~~~
@@ -24,3 +37,5 @@ Todo
 * Remove all the PINK (GAHH) from Monokai's XML -- hard on the eyes, xml needs a subdued color.
 
 .. _thanks chh: http://www.sublimetext.com/forum/viewtopic.php?f=3&t=5688
+
+
