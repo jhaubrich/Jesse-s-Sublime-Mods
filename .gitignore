@@ -1,4 +1,3 @@
 *.pyc
-test.rst
 *.cache
 .DS_Store
