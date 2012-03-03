@@ -3,7 +3,7 @@ I find myself making changes to allot of existing packages. That is all this pro
 Changes made:
 ~~~~~~~~~~~~~
 * Orgmode syntax added to Molokai, Eiffle and Plastic
-* Added ReStructured_extended, :thanks chh:`http://www.sublimetext.com/forum/viewtopic.php?f=3&t=5688`
+* Added ReStructured_extended, `thanks chh`_
     - Includes Shell-Unix-Generic-Extended.tmLanguage, Twilight Extended
     - Removed the meta.paragraph.restructuredtext definition, so that normal text will be colored just like all other standard text as defined in the currently used color theme.
     - Added definitions for the ReST directives .. sourcecode:: bash, .. sourcecode:: console, .. sourcecode:: guess and .. sourcecode:: python
@@ -11,7 +11,6 @@ Changes made:
     - Corrected some regex flaws.
 * Lists to ReStructured text
 * comment blocks to ReStructured text.
-* 
 
 
 Install Instructions
@@ -23,3 +22,5 @@ Todo
 ~~~~
 * Create a *real* ReSt plugin. Probably another github project.
 * Remove all the PINK (GAHH) from Monokai's XML -- hard on the eyes, xml needs a subdued color.
+
+.. _thanks chh: http://www.sublimetext.com/forum/viewtopic.php?f=3&t=5688
