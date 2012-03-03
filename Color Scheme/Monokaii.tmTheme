@@ -487,7 +487,7 @@
 
 
 
-<!-- ReStructuredText -->
+<!-- Jesse's ReStructuredText -->
 		<dict>
 			<key>name</key>
 			<string>--------------------------------</string>
@@ -593,7 +593,7 @@
 		</dict>
 
 
-<!-- reStructuredText -->
+<!-- chh reStructuredText -->
 		<dict>
 		    <key>scope</key>
 		    <string>meta.paragraph.restructuredtext</string>

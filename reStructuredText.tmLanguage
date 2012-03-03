@@ -16,6 +16,7 @@
 	<key>patterns</key>
 	<array>
 		
+<!-- My Lists mod -->
 		<dict>
 			<key>name</key>
 			<string>markup.list.restructuredtext</string>
