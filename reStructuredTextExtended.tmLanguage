@@ -37,14 +37,12 @@
 		<dict>-->
 			<key>patterns</key>
 			<array>
-
-	<!-- Jesse's lists addition -->
-				<dict>
-					<key>name</key>
-					<string>markup.list.restructuredtext</string>
-					<key>match</key>
-					<string>(^\s*[\*\-\+]\s+)|(^\s*[0-9a-zA-Z][\.\)]\s+)|(^\s*\([0-9a-zA-Z]\)\s+)</string>
-				</dict>
+						<dict>
+			<key>name</key>
+			<string>markup.list.restructuredtext</string>
+			<key>match</key>
+			<string>(^\s*[\*\-\+]\s+)|(^\s*[0-9a-zA-Z][\.\)]\s+)|(^\s*\([0-9a-zA-Z]\)\s+)</string>
+		</dict>
 				<dict>
 					<key>begin</key>
 					<string>^([ \t]*)((\.\.)\sraw(::)[ ]+html)$</string>
@@ -278,15 +276,15 @@
 				</dict>
 				<dict>
 					<key>begin</key>
-					<string>^([ \t]*)(.*?((::))[ ]+.*)$</string>
+					<string>^([ \t]*).*?((::))</string>
 					<key>captures</key>
 					<dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>meta.directive.restructuredtext</string>
+							<string>markup.raw.restructuredtext</string>
 						</dict>
-						<key>4</key>
+						<key>3</key>
 						<dict>
 							<key>name</key>
 							<string>punctuation.definition.raw.restructuredtext</string>
@@ -295,8 +293,7 @@
 					<key>comment</key>
 					<string>verbatim blocks</string>
 					<key>end</key>
-					<!-- <string>^(?=\1[^\s]+)</string> -->
-					<string>^(?!\1[ \t])</string>
+					<string>^(?=\1[^\s]+)</string>
 					<key>name</key>
 					<string>meta.raw.block.restructuredtext</string>
 					<key>patterns</key>
@@ -305,7 +302,7 @@
 							<key>match</key>
 							<string>.+</string>
 							<key>name</key>
-							<string>meta.raw.block.restructuredtext</string>
+							<string>markup.raw.restructuredtext</string>
 						</dict>
 					</array>
 				</dict>
