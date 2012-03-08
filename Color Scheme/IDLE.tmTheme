@@ -334,6 +334,41 @@
     </dict>
 
 
+
+
+
+        <dict>
+            <key>name</key>
+            <string>Markup: Comment</string>
+            <key>scope</key>
+            <string>markup.other.strikethrough</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#75715E</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Markup: Comment</string>
+            <key>scope</key>
+            <string>meta.tag.inline.strikethrough</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>italic</string>
+                <key>foreground</key>
+                <string>#75715E</string>
+            </dict>
+        </dict>
+
+
+
+
+        
 	</array>
 	<key>uuid</key>
 	<string>DDC0CBE1-442B-4CB5-80E4-26E4CFB3A277</string>

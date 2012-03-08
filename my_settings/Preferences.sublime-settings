@@ -1,8 +1,14 @@
 {
 	"color_scheme": "Packages/Jesse-s-Sublime-Mods/Color Scheme/Monokaii Soda.tmTheme",
     "theme": "Soda Dark.sublime-theme",
-	"font_face": "Meslo LG S",
+    // "font_face": "Meslo LG M",
+    // http://font.ubuntu.com/
+    "font_face": "Ubuntu Mono",
+
 	"font_size": 13.0,
+    // Valid options are "no_bold", "no_italic", "no_antialias", "gray_antialias",
+    // "subpixel_antialias" and "no_round" (OS X only)
+    "font_options": ["subpixel_antialias"],
 
 	// Python tab settings
     "tab_size": 4,
