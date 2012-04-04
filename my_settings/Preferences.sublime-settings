@@ -8,7 +8,7 @@
 	"font_size": 13.0,
     // Valid options are "no_bold", "no_italic", "no_antialias", "gray_antialias",
     // "subpixel_antialias" and "no_round" (OS X only)
-    "font_options": ["subpixel_antialias"],
+    "font_options": ["gray_antialias"],
 
 	// Python tab settings
     "tab_size": 4,
