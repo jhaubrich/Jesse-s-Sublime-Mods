@@ -1,6 +1,6 @@
 {
 	"color_scheme": "Packages/Jesse-s-Sublime-Mods/Color Scheme/Monokaii Soda.tmTheme",
-    "theme": "Soda Dark.sublime-theme",
+    // "theme": "Soda Dark.sublime-theme",
     // "font_face": "Meslo LG M",
     // http://font.ubuntu.com/
     "font_face": "Ubuntu Mono",
@@ -13,7 +13,7 @@
 	// Python tab settings
     "tab_size": 4,
     "translate_tabs_to_spaces": true,
-    // I think this needs to be set in defaults. I get weird behavior 
+    // I think this needs to be set in defaults. I get weird behavior
     // when I set it here.
     // "auto_complete": false,
 
