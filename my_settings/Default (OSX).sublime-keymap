@@ -1,4 +1,62 @@
 [
+    { "keys": ["f1"], "command": "delete_trailing_spaces" },
+
+    { "keys": ["super+t"], "command": "new_file" },
+
+    // { "keys": ["super+k", "super+h"], "command": "sublime_peek" },
+    // { "keys": ["super+click"], "command": "goto_python_definition" }
+    { "keys": ["super+k", "super+h"], "command": "goto_documentation" },
+
+    // Custom K-commands
+    { "keys": ["super+k", "super+j"], "command": "join_lines" },
+    { "keys": ["super+k", "super+t"], "command": "transpose" },
+
+
+
+    {
+        "keys": ["super+k", "super+o"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1]]
+        }
+    },
+    {
+        "keys": ["super+k", "super+s"],
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+        }
+    }
+
+
+
+    // { "keys": ["left"], "command": "move", "args": {"by": "characters", "forward": false} },
+    // { "keys": ["right"], "command": "move", "args": {"by": "characters", "forward": true} },
+    // { "keys": ["up"], "command": "move", "args": {"by": "lines", "forward": false} },
+    // { "keys": ["down"], "command": "move", "args": {"by": "lines", "forward": true} },
+    // { "keys": ["shift+left"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true} },
+    // { "keys": ["shift+right"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true} },
+    // { "keys": ["shift+up"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true} },
+    // { "keys": ["shift+down"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true} },
+
+
+    // MacOS style pageup/pagedown, EOL, BOL with arrow keys
+    // { "keys": ["super+up"], "command": "move", "args": {"by": "pages", "forward": false} },
+    // { "keys": ["super+down"], "command": "move", "args": {"by": "pages", "forward": true} },
+    // { "keys": ["shift+super+up"], "command": "move", "args": {"by": "pages", "forward": false, "extend": true} },
+    // { "keys": ["shift+super+down"], "command": "move", "args": {"by": "pages", "forward": true, "extend": true} },
+
+    // { "keys": ["super+left"], "command": "move_to", "args": {"to": "bol", "extend": false} },
+    // { "keys": ["super+right"], "command": "move_to", "args": {"to": "eol", "extend": false} },
+    // { "keys": ["shift+super+left"], "command": "move_to", "args": {"to": "bol", "extend": true} },
+    // { "keys": ["shift+super+right"], "command": "move_to", "args": {"to": "eol", "extend": true} }
+
     // Alternative Autocomplete Bindings -- allows tab complettion
     // https://github.com/alexstaubo/sublime_text_alternative_autocompletion
     // { "keys": ["tab"], "command": "alternative_autocomplete", "args": {"default": "\t"}, "context":
@@ -28,24 +86,24 @@
 
     // Orgmode Bindings -- I don't use these, should probably just delete.
     // https://bitbucket.org/theblacklion/sublime_orgmode/overview
-    { "keys": ["enter"], "command": "orgmode_toggle_checkbox", "context":
-      [
-        { "key": "selector", "operator": "equal", "operand": "orgmode.checkbox" }
-      ]
-    },
-    { "keys": ["enter"], "command": "orgmode_recalc_checkbox_summary", "context":
-      [
-        { "key": "selector", "operator": "equal", "operand":  "orgmode.checkbox.summary" }
-      ]
-    },
-    {  "keys": ["enter"], "command": "orgmode_open_link", "context":
-      [
-        { "key": "selector", "operator": "equal", "operand":  "orgmode.link" }
-      ]
-    },
-    {  "keys": ["enter"], "command": "orgmode_cycle_internal_link", "context":
-      [
-        { "key": "selector", "operator": "equal", "operand":  "orgmode.link.internal" }
-      ]
-    }
+    // { "keys": ["enter"], "command": "orgmode_toggle_checkbox", "context":
+    //   [
+    //     { "key": "selector", "operator": "equal", "operand": "orgmode.checkbox" }
+    //   ]
+    // },
+    // { "keys": ["enter"], "command": "orgmode_recalc_checkbox_summary", "context":
+    //   [
+    //     { "key": "selector", "operator": "equal", "operand":  "orgmode.checkbox.summary" }
+    //   ]
+    // },
+    // {  "keys": ["enter"], "command": "orgmode_open_link", "context":
+    //   [
+    //     { "key": "selector", "operator": "equal", "operand":  "orgmode.link" }
+    //   ]
+    // },
+    // {  "keys": ["enter"], "command": "orgmode_cycle_internal_link", "context":
+    //   [
+    //     { "key": "selector", "operator": "equal", "operand":  "orgmode.link.internal" }
+    //   ]
+    // }
 ]
