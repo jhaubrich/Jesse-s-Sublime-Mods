@@ -10,8 +10,12 @@
     // Custom K-commands
     { "keys": ["super+k", "super+j"], "command": "join_lines" },
     { "keys": ["super+k", "super+t"], "command": "transpose" },
+    { "keys": ["super+k", "super+e"], "command": "delete_trailing_spaces" },
 
-
+    // { "keys": ["super+h"], "command": "move", "args": {"by": "characters", "forward": false} },
+    // { "keys": ["super+l"], "command": "move", "args": {"by": "characters", "forward": true} },
+    // { "keys": ["super+k"], "command": "move", "args": {"by": "lines", "forward": false} },
+    // { "keys": ["super+j"], "command": "move", "args": {"by": "lines", "forward": true} },
 
     {
         "keys": ["super+k", "super+o"],
