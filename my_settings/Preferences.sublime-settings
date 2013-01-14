@@ -20,6 +20,6 @@
     "overlay_scroll_bars": "enabled",
 	"ignored_packages":
 	[
-		"Vintage"
+		// "Vintage"
 	]
 }
